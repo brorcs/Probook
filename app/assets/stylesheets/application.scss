@@ -1,2 +1,15 @@
+/*
+*= require_tree .
+*/
+
 @import "bootstrap-sprockets";
 @import "bootstrap";
+
+.jumbotron {
+    background-color: #6c89d1;
+    border-bottom: 2px #000 solid;
+}
+
+body {
+    background-color: #d1d1d1;
+}
