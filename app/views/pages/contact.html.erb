@@ -1,2 +1,10 @@
+<center>
 <h1>Welkome to Probook</h1>
 <p>This is a website were you can chat and send pictures with your friends</p>
+
+<h1>
+<% if current_user.admin? %>
+<h2>secret text only for admins</h2>
+<% end %>
+</h1>
+</center>

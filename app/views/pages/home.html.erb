@@ -1,9 +1,12 @@
 <div class="jumbotron">
-<center><h1 class="animated rubberBand">Welkome to Probook!</h1></center>
+<center><h1 class="animated rubberBand">Welcome to Probook!</h1></center>
   <center><p><img style="max-width: 250px;max height: 200px" src="http://www.fbtimepass.com/uploadedimages/aaaa_The_face_book.jpg"></p></center>
-  <center><p><a class="btn btn-primary btn-lg" href="#" role="button">Log in</a></p></center>
 </div>
 
 <center><h2 class="animated flash">Here can you chat and share pictures with your friends.</h2></center>
 <p></p>
 <h4 class="animated infinite tada"><h4> made by Bror </h4>
+<center><%= link_to "create a user", new_user_registration_path, class: "btn btn-primary btn-lg" %></center>
+<center><%= link_to "Sign In", new_user_session_path, class: "btn btn-primary btn-lg" %></center>
+<center><%= link_to "Log Out", destroy_user_session_path, method: :delete, class: "btn btn-primary btn-lg" %></center>
+
